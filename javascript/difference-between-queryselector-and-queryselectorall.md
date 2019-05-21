@@ -1,4 +1,4 @@
-#Difference between document.queryselector() and document.queryselectorall()
+# Difference between document.queryselector() and document.queryselectorall()
 
 > document​.query​Selector()
 
