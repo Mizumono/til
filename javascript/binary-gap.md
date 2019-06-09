@@ -16,7 +16,7 @@ function solution(N) {
     let sequenceCounter = 0;
     let maxSequenceCounter = 0;
 
-    fot (let digit of strNumber) {
+    for (let digit of strNumber) {
         if ( digit === '0' ) {
             sequenceCounter += 1;
         } else {
