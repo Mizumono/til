@@ -20,7 +20,7 @@ function solution(N) {
         if ( digit === '0' ) {
             sequenceCounter += 1;
         } else {
-            maxSequenceCounter = Math.max( sequenceCounter, maxSequenceCounter );
+            maxSequenceCounter = Math.max(sequenceCounter, maxSequenceCounter);
             sequenceCounter = 0;
         }
     }
@@ -28,3 +28,5 @@ function solution(N) {
     return maxSequenceCounter;
 }
 ```
+
+[zsoltnagy.eu](http://www.zsoltnagy.eu/javascript-tech-interview-exercise-2-binary-gap-exercise-in-codility/)
